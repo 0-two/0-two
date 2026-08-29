@@ -6,7 +6,7 @@
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg" width="100%" height=150>
+        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg" width="100%" height=130>
       </picture>
     </td>
     <td width="40%" valign="top">
@@ -20,7 +20,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=01100111%2001100101%2001100101%2001101011" alt="Typing introduction" />
 </p>
 
-<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="2" align="center"><img src="assets/cute-pets.png" width="100%" align="middle"/></td></tr>
+<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="2" align="center"><img src="assets/cute-pets-removebg-preview.png" width="100%" align="middle"/></td></tr>
 <tr>
     <td width="55%" valign="top"><img src="./metrics.svg" alt="GitHub Stats" width="100%" align="middle" /><br/><img src="./metrics.languages.svg" alt="Languages" width="100%" align="middle" /></td>
     <td width="45%" valign="top"><img src="./metrics.leetcode.svg" alt="LeetCode" width="100%" align="middle" /><br/><img src="./metrics.anilist.svg" alt="AniList Favorites" width="100%" align="middle" /></td>
