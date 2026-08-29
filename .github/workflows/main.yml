@@ -18,39 +18,49 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
-
-          # Template
-          template: classic
-
-          # Global rendering options
-          config_order: base.header, introduction, languages, topics, activity, leetcode, projects, anilist
-          config_octicon: yes        # use GitHub octicons
-          config_animations: yes     # CSS animations
-          config_base64: yes         # embed images as base64
-
-          # Base content: header, activity, community, repositories, metadata
           base: header, activity, community, repositories, metadata
-          base_indepth: yes          # in-depth mode (more accurate stats, uses more API quota)
-          base_hireable: yes         # "Available for hire!" banner in header
-          repositories_forks: yes    # include forks in repository stats
+          base_indepth: yes
+          base_hireable: yes
+          repositories_forks: yes
+          plugin_topics: yes
+          plugin_activity: yes
+          plugin_introduction: yes
+          plugin_projects: yes
 
-          # GitHub plugins
-          plugin_languages: yes            # languages activity
-          plugin_topics: yes                # starred topics
-          plugin_activity: yes              # recent activity
-          plugin_introduction: yes          # introduction/bio section
-          plugin_projects: yes              # GitHub projects
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 2%
-
-          # Social plugins
-          plugin_anilist: yes
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, characters
-          plugin_anilist_limit: 3
-          plugin_anilist_limit_characters: 22
-          plugin_anilist_user: 0twochan
-
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.leetcode.svg
+          base: ""
           plugin_leetcode: yes
           plugin_leetcode_user: zero__two
           plugin_leetcode_sections: solved, skills, recent
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: NOT_NEEDED
+          filename: metrics.anilist.svg
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_user: 0twochan
+          plugin_anilist_sections: favorites
+          plugin_anilist_limit: 2
+
+      - uses: lowlighter/metrics@latest
+        with:
+          token: NOT_NEEDED
+          filename: metrics.anilist.characters.svg
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_sections: characters
+          plugin_anilist_user: 0twochan
+          plugin_anilist_limit_characters: 22
