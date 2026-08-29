@@ -10,7 +10,7 @@
       </picture>
     </td>
     <td width="40%" valign="top">
-      <img src="assets/meme.png" alt="LeetCode" width="100%"/>
+      <img src="assets/meme.png" alt="LeetCode" width="100%" align="center"/>
     </td>
   </tr>
 </table>
