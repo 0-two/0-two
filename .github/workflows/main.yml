@@ -1,19 +1,51 @@
 name: Metrics
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
-  workflow_dispatch:
-  # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  schedule:
+    - cron: "0 0 * * *"      # daily refresh
+  workflow_dispatch:          # allows manual trigger
+  push:
+    branches: ["master", "main"]
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
     steps:
       - uses: 0-two/metrics@master
         with:
-          token: ${{ secrets.METRICS_RULES }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+
+          # Template
+          template: classic
+
+          # Global rendering options
+          config_octicon: yes        # use GitHub octicons
+          config_animations: yes     # CSS animations
+          config_base64: yes         # embed images as base64
+
+          # Base content: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes          # in-depth mode (more accurate stats, uses more API quota)
+          base_hireable: yes         # "Available for hire!" banner in header
+          repositories_forks: yes    # include forks in repository stats
+
+          # GitHub plugins
+          plugin_languages: yes            # languages activity
+          plugin_topics: yes                # starred topics
+          plugin_activity: yes              # recent activity
+          plugin_introduction: yes          # introduction/bio section
+          plugin_projects: yes              # GitHub projects
+
+          # Social plugins
+          plugin_anilist: yes
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites
+          plugin_anilist_user: 0twochan
+
+          plugin_leetcode: yes
+          plugin_leetcode_user: zero__two
+          plugin_leetcode_sections: solved, skills, recent
