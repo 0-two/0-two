@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=650&lines=01100111%2001100101%2001100101%2001101011" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&lines=I+truly+love+coding%2C+trust+me+!;Sometimes+all+u+need+is+a+good+meme;Hire+MEEEE+right+nowww+!!!;I+am+1+in+a+million%2C+that's+what+my+mum+said+:);Awww+the+pets+are+cute+right+?+RIGHT+?" alt="Typing introduction" />
 </p>
 
 <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="2" align="center"><img src="assets/cute-pets-removebg-preview.png" width="100%" align="middle"/></td></tr>
