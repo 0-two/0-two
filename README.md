@@ -1,30 +1,19 @@
-<table width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <img src="assets/ezgif.com-crop.gif" alt="Banner" width="100%" />
-      <br/>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg">
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/abozanona/abozanona/output/pacman-contribution-graph.svg" width="100%" height=130>
-      </picture>
-    </td>
-    <td width="40%" valign="top">
-      <img src="assets/meme.png" alt="LeetCode" width="100%" valign="middle"/>
-    </td>
-  </tr>
-</table>
-
-
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=4000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=650&lines=I+truly+love+coding%2C+trust+me+!;Sometimes+all+u+need+is+a+good+meme;Hire+MEEEE+right+nowww+!!!;I+am+1+in+a+million%2C+that's+what+my+mum+said+:);Awww+the+pets+are+cute+right+?+RIGHT+?" alt="Typing introduction" />
 </p>
 
 <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td colspan="2" align="center"><img src="assets/cute-pets-removebg-preview.png" width="100%" align="middle"/></td></tr>
 <tr>
-    <td width="55%" valign="top"><img src="./metrics.svg" alt="GitHub Stats" width="100%" align="middle" /><br/><img src="./metrics.languages.svg" alt="Languages" width="100%" align="middle" /></td>
-    <td width="45%" valign="top"><img src="./metrics.leetcode.svg" alt="LeetCode" width="100%" align="middle" /><br/><img src="./metrics.anilist.svg" alt="AniList Favorites" width="100%" align="middle" /></td>
+    <td colspan="2" align="center"><img src="./metrics.svg" alt="GitHub Stats" width="100%" align="middle" /><br/><img src="./metrics.languages.svg" alt="Languages" width="100%" align="middle" /></td>
   </tr>
+<tr>
+  <td width="50%" valign="top" align="center">
+      <img src="./metrics.leetcode.svg" alt="LeetCode" width="100%" align="middle" />
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="./metrics.anilist.svg" alt="AniList" width="100%" align="middle" />
+    </td>
+</tr>
 </table>
 
 <br>
@@ -53,9 +42,11 @@
 </p>
 
 <h3 align="center"><strong>Tech Stack</strong></h3>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,java,js,ts,py,bash,aws,gcp,flask,nextjs,nodejs,opencv,tailwind,mongodb,mysql,postgres,supabase,figma,sklearn,pytorch,tensorflow&perline=7" alt="My Skills" /></a>
-</p>
+<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+    <td width="60%" valign="middle" align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,java,js,ts,py,bash,aws,gcp,flask,nextjs,nodejs,opencv,tailwind,mongodb,mysql,postgres,supabase,figma,sklearn,pytorch,tensorflow&perline=7" alt="My Skills" align="middle" /></a></td>
+    <td width="40%" valign="middle" align="center"><img src="assets/meme.png" alt="Meme" width="100%" align="middle" /></td>
+  </tr>
+</table>
 
   
 
